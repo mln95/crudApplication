@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.dark-blue{
+    color: darkblue;
+}
+
+header nav{
+    background-color: #06d6a0;
+    padding: 0.5em;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.fa-user{
+    margin-left: 0.2vw;
+}
+
+.gradient-color{
+    background: linear-gradient(to right, #06d6a0, #4a00e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-shadow:active{
+    background-color: #f8f8f8;
+}
+
+.border-shadow{
+    box-shadow: 1px 3px 10px #e9ecef;
+    border: 1px solid #edf2f4;
+}
+
+.button-user a{
+    padding: 0.5em 1em;
+}
+
+main{
+    margin-top: 6em;
+}
+
+main .container table{
+    margin-top: 2em;
+}
+
+.thead-color{
+    background-color: #2b2d42;
+}
+
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+
+thead tr th{
+    color: white;
+    padding: 1em;
+}
+
+tbody tr td{
+    text-align: center;
+    padding: 0.8em;
+    border-bottom: 1px solid gainsboro;
+}
+
+tbody td a{
+    padding: 0.5em 1em;
+    margin: 0.2em;
+}
+
+.fa-angle-double-left{
+    margin-right: 0.2em;
+    font-size: 12px;
+}
+
+.inline{
+    display: inline;
+}
+
+#group_form_all{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.width{
+    width: 100%;
+    padding: 0.8em 0;
+    margin-bottom: 1em;
+}
+
+.form-group button{
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.form-group button:active{
+    background-color: rgb(71, 71, 145);
+}
+
+.margin-bottom{
+    margin: 1em 0;
+}
+
+.light-color{
+    color: #adb5bd;
+}
+.color-green button{
+    background-color: #06d6a0;
+}
+
+.color-green button:active{
+    background-color: #89dac4;
+}

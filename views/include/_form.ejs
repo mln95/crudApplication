@@ -1,0 +1,43 @@
+<form action="/api/user" method="POST">
+    <div id="group_form_all">
+    <div class="form_group">
+            <label for="firstname" class="light-color">Firstname</label><br>
+            <input class="width" type="name" name="firstname" placeholder="Mohamed">
+    </div>
+    <div class="form_group">
+        <label for="lastname" class="light-color">Lastname</label><br>
+        <input class="width" type="name" name="lastname" placeholder="Necib">
+    </div>
+    <div class="form-group">
+        <div>
+            <label for="email" class="light-color">Email </label><br>
+            <input class="width" type="email" name="email" placeholder="username@gmail.com">
+        </div>
+    </div>
+    <div class="form_group">
+        <label for="gender" class="light-color">Gender</label>
+        <div class="inline ">
+            <input  type="radio" name="gender" value="Male">
+            <label for="gender" class="text-light">Male</label>
+        </div>
+        <div class="inline">
+            <input type="radio" name="gender" value="Female">
+            <label for="gender" class="text-light">Female</label>
+        </div>
+    </div>
+    <div id="form_group" class='margin-bottom'>
+        <label for="statut" class="light-color">Statut </label>
+        <div class="inline">
+            <input type="radio" name="status" value="active">
+            <label for="statut" class="text-light">Active</label>
+        </div>
+        <div class="inline">
+            <input type="radio" name="status" value="inactive">
+            <label for="Statut" class="text-light">Inactive</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="width" type="submit">Save</button>
+    </div>
+</div>
+</form>
